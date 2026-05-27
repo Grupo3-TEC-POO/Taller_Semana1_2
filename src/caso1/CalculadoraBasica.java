@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CalculadoraBasica {
 
 	public static void main(String[] args) {
-		// inicio del programa principal
+		
 		Scanner ingreso = new Scanner(System.in);
 		
 		System.out.println("--- CASO 1 CALCULADORA BASICA ---");
