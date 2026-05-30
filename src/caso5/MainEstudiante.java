@@ -33,10 +33,12 @@ public class MainEstudiante {
 		
 		System.out.println("\n-----REPORTE FINAL -----");
 		
-		for (String nombre : estudent.getLista()) {
-			System.out.println(">> " + nombre);
+		//
+		for (int i = 0; i < estudent.getLista().size(); i++) {
+		    System.out.println((i + 1) + ". " + estudent.getLista().get(i));
 		}
 		
 		data_estud.close();
+		
 	}
 }
