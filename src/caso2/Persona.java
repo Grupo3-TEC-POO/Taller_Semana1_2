@@ -11,9 +11,8 @@ public class Persona {
 	}	
 	
 	public void mostrarDatos() {
-		System.out.println("---------------------------");
-		System.out.println("Nombre: " + this.nombre);
-		System.out.println("Edad: " + this.edad + " años");
+		System.out.println("El nombre es : " + this.nombre);
+		System.out.println("Tiene : " + this.edad + " años");
 	}
 	
 	public String getNombre() {
